@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enkripsi dan Dekripsi File</title>
+  </head>
+  <body>
+    <h1>Enkripsi dan Dekripsi File</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <div>
+        <label for="file">Pilih File:</label>
+        <input type="file" id="file" name="file" />
+      </div>
+      <div>
+        <label for="action">Pilih Aksi:</label>
+        <select id="action" name="action">
+          <option value="encrypt">Enkripsi</option>
+          <option value="decrypt">Dekripsi</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
